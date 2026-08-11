@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Features — VitSee</title>
+<meta name="description" content="Explore VitSee's tools for comparing ACA plans, ranking providers, estimating out-of-pocket costs, and getting AI-powered answers.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/vitsee-logo.png" alt="VitSee logo">
+      <span class="brand-text">Vit<span class="brand-accent">$</span>ee</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="features.html" class="active">Features</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="https://salmon-flower-08599f31e-preview.westus2.4.azurestaticapps.net/login" class="btn btn-ghost btn-sm">Sign In</a>
+      <a href="https://salmon-flower-08599f31e-preview.westus2.4.azurestaticapps.net/login" class="btn btn-accent btn-sm">Get Started</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-bottom: 2rem;">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="section-label">Features</span>
+        <h2>Every tool you need to shop smarter for care</h2>
+        <p>VitSee brings together plan data, negotiated rates, and provider quality scores — so nothing is hidden until the bill arrives.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature row 1: Browse Services -->
+  <section style="padding-top: 0; padding-bottom: 0;">
+    <div class="wrap">
+
+      <div class="feature-row reveal">
+        <div>
+          <span class="feature-row-tag">Browse Services</span>
+          <h3>Search any procedure. See every price near you.</h3>
+          <p>Type in a procedure — from an MRI to a knee replacement — and VitSee matches it to the right billing codes automatically, then pulls real negotiated rates from providers in your area.</p>
+          <ul>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Plain-language procedure search</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Real negotiated rates, not estimates</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Filter by distance and network status</li>
+          </ul>
+        </div>
+        <div class="feature-row-media">
+          <div class="mock-list" style="width:100%;">
+            <div class="mock-pill-row">
+              <span class="mock-pill">MRI - Knee</span>
+              <span class="mock-pill">In-network</span>
+              <span class="mock-pill">Within 10 mi</span>
+            </div>
+            <div class="mock-bar" style="width: 100%;"></div>
+            <div class="mock-bar" style="width: 85%;"></div>
+            <div class="mock-bar" style="width: 92%;"></div>
+            <div class="mock-bar" style="width: 70%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature row 2: Cost-Optimal Providers -->
+      <div class="feature-row reverse reveal">
+        <div>
+          <span class="feature-row-tag">Cost-Optimal Providers</span>
+          <h3>Ranked by price and quality — together.</h3>
+          <p>VitSee scores providers on both negotiated cost and outcomes data (readmission rates, ratings, and more) so the cheapest option is never a mystery box.</p>
+          <ul>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Combined cost + quality ranking</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Readmission and outcomes data built in</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Side-by-side provider comparison</li>
+          </ul>
+        </div>
+        <div class="feature-row-media">
+          <div style="width:100%;">
+            <div class="compare-row best" style="border-bottom:1px solid var(--border-color); margin:0; padding: 0.875rem 0;">
+              <div>
+                <div class="compare-name">Lakeview Diagnostics</div>
+                <div class="compare-meta">Quality 4.8 · Top rated</div>
+              </div>
+              <div class="compare-price">$720</div>
+            </div>
+            <div class="compare-row" style="padding: 0.875rem 0;">
+              <div>
+                <div class="compare-name">Riverside Imaging</div>
+                <div class="compare-meta">Quality 4.2</div>
+              </div>
+              <div class="compare-price">$1,840</div>
+            </div>
+            <div class="compare-row" style="padding: 0.875rem 0; border-bottom:none;">
+              <div>
+                <div class="compare-name">Metro General Hospital</div>
+                <div class="compare-meta">Quality 4.0</div>
+              </div>
+              <div class="compare-price">$2,410</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature row 3: Out-of-Pocket Estimates -->
+      <div class="feature-row reveal">
+        <div>
+          <span class="feature-row-tag">Out-of-Pocket Estimates</span>
+          <h3>Know your real cost — deductible and all.</h3>
+          <p>VitSee applies your specific plan's deductible, coinsurance, and out-of-pocket max to every price, so the number you see is the number you'll actually pay.</p>
+          <ul>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Personalized to your ACA plan</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Accounts for deductible progress</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> No surprise bills after the visit</li>
+          </ul>
+        </div>
+        <div class="feature-row-media">
+          <div class="savings-card" style="border:none; box-shadow:none; padding:0; width:100%;">
+            <div class="savings-card-header">
+              <h3>Estimated cost to you</h3>
+              <span class="savings-pill">62% of deductible met</span>
+            </div>
+            <div class="compare-row">
+              <div class="compare-name">Billed amount</div>
+              <div class="compare-meta" style="font-weight:600;">$720</div>
+            </div>
+            <div class="compare-row">
+              <div class="compare-name">Plan discount</div>
+              <div class="compare-meta" style="font-weight:600; color: var(--accent-green-dark);">&minus;$180</div>
+            </div>
+            <div class="compare-row best">
+              <div class="compare-name">Your estimated cost</div>
+              <div class="compare-price">$540</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature row 4: AI Assistant -->
+      <div class="feature-row reverse reveal">
+        <div>
+          <span class="feature-row-tag">AI Assistant</span>
+          <h3>Ask a question. Get a ranked answer.</h3>
+          <p>Not sure what to search for? Describe what you need in plain English and VitSee's assistant finds, compares, and explains your best options.</p>
+          <ul>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Natural language search</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Explains why a provider ranks where it does</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Save providers and appointments for later</li>
+          </ul>
+        </div>
+        <div class="feature-row-media">
+          <div style="display:flex; flex-direction:column; gap:0.75rem; width:100%;">
+            <div class="mock-chat-bubble user">What's the cheapest MRI near me that's still highly rated?</div>
+            <div class="mock-chat-bubble">Lakeview Diagnostics is $720 (est. $540 after your plan discount) with a 4.8 quality score — the best combination within 10 miles.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Closing CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-banner reveal">
+        <h2>Ready to see your real prices?</h2>
+        <p>Sign in and start comparing plans and providers in minutes.</p>
+        <a href="https://salmon-flower-08599f31e-preview.westus2.4.azurestaticapps.net/login" class="btn btn-accent btn-lg">Get Started Free</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="assets/vitsee-logo.png" alt="VitSee logo">
+          <span class="brand-text">Vit<span class="brand-accent">$</span>ee</span>
+        </a>
+        <p>Healthcare price transparency, made simple. Compare plans and providers before you book.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Product</h5>
+          <a href="features.html">Features</a>
+          <a href="https://salmon-flower-08599f31e-preview.westus2.4.azurestaticapps.net/login">Sign In</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 VitSee. All rights reserved.</span>
+      <div class="footer-bottom-links">
+        <a href="contact.html">Privacy</a>
+        <a href="contact.html">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
