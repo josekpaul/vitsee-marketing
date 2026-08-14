@@ -836,6 +836,11 @@ section {
   border: 1.5px dashed var(--text-muted);
 }
 
+img.founder-photo {
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+}
+
 .founder-card h4 {
   font-family: var(--font-display);
   margin: 0 0 0.25rem;
